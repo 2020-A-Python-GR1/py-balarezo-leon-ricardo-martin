@@ -1,5 +1,0 @@
-123
-345
-567Marca: 123
-Modelo: 666
-Precio: dfsdf
