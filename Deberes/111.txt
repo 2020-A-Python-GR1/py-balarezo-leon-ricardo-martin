@@ -1,0 +1,3 @@
+Marca: 232
+Modelo: 232
+Precio: 555

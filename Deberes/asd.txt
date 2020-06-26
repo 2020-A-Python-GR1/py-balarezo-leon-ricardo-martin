@@ -1,0 +1,3 @@
+Marca: asda
+Modelo: sda
+Precio: sda
