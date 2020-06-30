@@ -1,0 +1,43 @@
+{
+   "pais": "1",
+   "anio_fundacion": "2",
+   "fundador": "4",
+   "celulares": [
+      {
+         "modelo": "bbbbbbbbbbbbbbbbbb",
+         "gama": "bbbbbbbbbbbbbbbb",
+         "anio": "bbbbbbbbbbbbbbbb",
+         "precio": "bbbbbbbbbbbbbbbb"
+      },
+      {
+         "modelo": "emy emy emy",
+         "gama": "te amo te amo",
+         "anio": "<3",
+         "precio": "999999999999"
+      },
+      {
+         "modelo": "123",
+         "gama": "123",
+         "anio": "123",
+         "precio": "123"
+      },
+      {
+         "modelo": "51651",
+         "gama": "15615",
+         "anio": "516516",
+         "precio": "156156"
+      },
+      {
+         "modelo": "aaa",
+         "gama": "aaa",
+         "anio": "aaa",
+         "precio": "aaa"
+      },
+      {
+         "modelo": "123",
+         "gama": "123",
+         "anio": "123",
+         "precio": "123"
+      }
+   ]
+}

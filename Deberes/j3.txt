@@ -1,3 +1,0 @@
-Marca: 123
-Modelo: 123
-Precio: 123
