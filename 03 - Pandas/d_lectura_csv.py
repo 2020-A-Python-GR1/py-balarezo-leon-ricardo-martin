@@ -33,3 +33,10 @@ df2 = pd.read_csv(
     nrows=10,
     usecols = columnas,
     index_col='id')
+
+
+path_guardado = "C:/Users/marti/Documents/Phyton/Repositorios Git/repos/py-balarezo-leon-ricardo-martin/03 - Pandas/data/artwork_data.pickle"
+
+df2.to_pickle(path_guardado)
+
+df5 = pd.read_pickle(path_guardado)
