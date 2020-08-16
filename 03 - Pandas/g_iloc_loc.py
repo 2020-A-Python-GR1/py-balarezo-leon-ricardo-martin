@@ -93,10 +93,8 @@ notas.loc["Maria", "disciplina"] = 7
 
 notas.loc[:, "disciplina"] = 7
 
-############ Promedio de las 3 notas (no1 + no2 + disc) / 3
 
 
-promedio = notas["nota 1" + "nota 2"]
 
 
 
