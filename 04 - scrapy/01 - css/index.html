@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCRAPY</title>
+    <style>
+        /* ID
+            # + nombreID
+        */
+        #titulo-uno{
+            background-color: aqua;
+        }
+
+        /* NOMBRE-ETIQUETA
+            nombre-etiqueta
+        */
+        h1{
+            background-color: chartreuse;
+        }
+        body{
+            color: brown;
+            background-color: darkseagreen;
+        }  
+        p{
+            background-color: darkblue;
+        } 
+        /* clase
+            . + nombre-clase
+        */
+        .fondo-rojo{
+            background-color: red;
+        }
+        .fondo-verde{
+            background-color: green;
+        }
+        .fondo-amarillo{
+            background-color: yellow;
+        }
+        /* JERARQUIA
+            style > id > clase > etiqueta
+        */
+
+         /* Etiqueta dentro de otra etiqeuta*/
+        li>p{
+            background-color: lightseagreen;
+        }
+
+        li>p.epn.uno{
+            background-color: green;
+        }
+
+        li>p.epn{
+            background-color: red;
+        }
+         body>ul>li>p{
+             background-color: rosybrown;
+         }
+ 
+    </style>
+
+
+
+</head>
+<body>
+
+    <h1 id="titulo-uno">TITULO</h1>
+    <h1>otro titulo</h1>
+    <h1 class="fondo-rojo">Tercer Parrafo</h1>
+    <p class="fondo-amarillo fondo-rojo fondo-verde"
+    style="background-color: black;"
+    id="titulo-uno"
+    >Parrafo uno</p>
+    <p>Parrafo dos</p>
+    <p class="fondo-rojo fondo-verde fondo-amarillo">Parrafo tres</p>
+
+    <ul>
+        <li><p class="epn uno"> Cero </p></li>
+        <li>uno</li>
+        <li><p> dos </p></li>
+        <li>tres</li>
+        <li><p class="epn"> Cuatro </p></li>
+
+    </ul>
+    <li><p>fuera de UL</p></li>
+
+</body>
+</html>
